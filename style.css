@@ -3,3 +3,26 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#details {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
